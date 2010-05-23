@@ -32,7 +32,7 @@ begin
     gem.authors = ["Pedro Belo", "Nick Quaranto"]
     gem.files = FileList["LICENSE", "README.textile", "lib/hassle.rb", "init.rb"]
     gem.add_dependency('rack')
-    gem.add_dependency('haml')
+    gem.add_dependency('haml', '< 3')
     gem.add_development_dependency('rspec')
     gem.add_development_dependency('cucumber')
     gem.add_development_dependency('rack-test')

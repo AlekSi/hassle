@@ -2,6 +2,10 @@ h1. Hassle
 
 Making "SASS":http://sass-lang.com/ less of a hassle on read only filesystems. (like "Heroku":http://heroku.com)
 
+h2. WARNING
+
+This plugin doesn't supports neither SASS 3 nor Rails 3.
+
 h2. Install
 
 Get it from "Gemcutter.":http://gemcutter.org
