@@ -4,7 +4,7 @@ Making "SASS":http://sass-lang.com/ less of a hassle on read only filesystems. (
 
 h2. WARNING
 
-This plugin doesn't supports neither SASS 3 nor Rails 3.
+This plugin doesn't supports Rails 3 yet.
 
 h2. Install
 

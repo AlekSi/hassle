@@ -1,5 +1,4 @@
 require 'rack'
-gem 'haml', '< 3'
 require 'sass'
 require 'sass/plugin'
 
