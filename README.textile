@@ -6,14 +6,6 @@ h2. WARNING
 
 This plugin doesn't supports Rails 3 yet.
 
-h2. Install
-
-Get it from "Gemcutter.":http://gemcutter.org
-
-<pre>
-gem install hassle -s http://gemcutter.org
-</pre>
-
 h2. Usage
 
 By default, SASS compiles CSS into the @public/@ directory. On platforms like Heroku, "this won't work.":http://docs.heroku.com/constraints#read-only-filesystem Instead, Hassle compiles the SASS for you into @tmp/@ and serves it up via a @Rack::Static@ middleware.
@@ -74,7 +66,7 @@ Here's how to integrate it with your favorite web framework:
 
 h3. Rails
 
-For Rails: @script/plugin install git://github.com/pedro/hassle@. Done. Once you're in production mode, Hassle will kick in and prepare your SASS for all to enjoy.
+For Rails: @script/plugin install git://github.com/AlekSi/hassle@. Done. Once you're in production mode, Hassle will kick in and prepare your SASS for all to enjoy.
 
 h3. Sinatra
 
@@ -110,7 +102,7 @@ h1
 
 h2. Bugs
 
-Found some problems? Post 'em in "Issues":http://github.com/pedro/hassle/issues.
+Found some problems? Post 'em in "Issues":http://github.com/AlekSi/hassle/issues.
 
 h2. License
 
