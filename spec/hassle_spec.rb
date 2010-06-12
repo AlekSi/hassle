@@ -31,6 +31,17 @@ describe Hassle do
     end
   end
 
+  describe "a basic setup with SCSS" do
+    before do
+      write_scss("./public/stylesheets/sass")
+    end
+
+    it "serves up some sass" do
+      get '/stylesheets/screen.css'
+      last_response.should have_served_sass
+    end
+  end
+
   describe "a slightly more complex setup" do
     before do
       @location_one = "./public/css/sass"
